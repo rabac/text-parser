@@ -31,7 +31,7 @@ public class TextParserController {
 
     // filename, result_size can be set up to be read from the #HTTPRequest.
     private static final String FILENAME = "tempest.txt";
-    private static final Integer RESULT_SIZE = 10000;
+    private static final Integer RESULT_SIZE = 10;
 
     @Autowired
     private TextParseService parserService;
