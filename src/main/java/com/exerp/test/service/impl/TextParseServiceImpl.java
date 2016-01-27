@@ -13,6 +13,13 @@ import org.springframework.stereotype.Controller;
 import com.exerp.test.model.ParseResult;
 import com.exerp.test.service.TextParseService;
 
+/** 
+ * This class is responsible for handling the text file (using the input filename), 
+ * and splitting the contents of the file into words along with the frequency of each of the word.
+ * 
+ * @author rab
+ *
+ */
 @Controller
 public class TextParseServiceImpl implements TextParseService {
 

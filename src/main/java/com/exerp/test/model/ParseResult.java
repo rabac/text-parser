@@ -3,6 +3,15 @@ package com.exerp.test.model;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * This model class holds the result of a successful parse of a text file. 
+ * It contains the name of the file that was parsed, and a collection of the words in the file, 
+ * along with the number of occurrences of each word. 
+ * The word is stored as the key while the number of occurrences is the value. 
+ * 
+ * @author rab
+ *
+ */
 public class ParseResult {
 
     // reference for the parse result, in this case the name of the file.
